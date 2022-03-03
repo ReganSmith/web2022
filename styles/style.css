@@ -74,6 +74,41 @@ header a {
   width: 75%;
 }
 
+#about {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: minmax(auto, auto);
+  padding: 0 0 1rem 2rem;
+}
+
+#aboutPics {
+  background-color: #eaeaea;
+  padding: 0 0 1rem 2rem;
+  padding-top: 30px;
+}
+
+#aboutStorePic img {
+  width: 75%;
+  padding: 0 0 1rem 3rem;
+  padding-left: 60px;
+}
+
+#aboutLogoPics img {
+  grid-template-columns: repeat(3, 2fr);
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: 10%;
+  padding: 0 0 1rem 2rem;
+  padding-right: 100px;
+  padding-left: 60px;
+}
+
+#aboutText {
+  padding-left: 50px;
+}
+
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
