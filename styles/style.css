@@ -109,6 +109,29 @@ header a {
   padding-left: 50px;
 }
 
+#contact {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: minmax(auto, auto);
+  padding: 0 0 1rem 2rem;
+}
+
+#contactInfo {
+  background-color: #eaeaea;
+  padding: 0 0 1rem 2rem;
+  padding-top: 30px;
+}
+
+#contactInfo img {
+  width: 75%;
+  padding: 0 0 1rem 3rem;
+  padding-left: 60px;
+}
+
+#contactForm {
+  padding: 0 0 1rem 2rem;
+}
+
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

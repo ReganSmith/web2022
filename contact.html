@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Fruit Market - About</title>
+  </head>
+
+
+  <body>
+    <header>
+
+        <a href="index.html">
+          <img src="images/logored.png" alt="Fruit Market Logo - Red">
+        </a>
+
+      <h1>Fruit Market</h1>
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="catering.html">Catering</a>
+      <a href="contact.html">Contact</a>
+
+    </header>
+
+
+<div class="wrapper">
+  <section id="contact">
+
+    <section id="contactInfo">
+      <img src="images/map.png" alt="Fruit Market Map">
+
+      <h2>Fruit Market</h2>
+      <p> 123 Fruit Way, Lexington, KY 40508 <br>
+      (859) 123-4567 <br>
+      Monday-Friday: 8 AM - 7 PM <br>
+      Saturday: 10 AM - 7 PM <br>
+      Sunday: Closed <br>
+      </p>
+
+    </section>
+
+
+    <section id="contactForm">
+
+      <h1>Contact Us</h1>
+
+    <form action="scripts/action.php" method="post" class="basic-form">
+
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" required>
+      <br> <br>
+
+      <label for="email">Email: </label>
+      <input type="text" name="email" id="email" required>
+      <br> <br>
+
+      <label for="phone">Phone Number: </label>
+      <input type="text" name="phone" id="phone" required>
+      <br> <br>
+
+      <label for="inquiryType">Inquiry Type: </label>
+      <select id="inquiryType" name="inquiryType">
+        <option value="">--Please choose an option--</option>
+        <option value="general">General</option>
+        <option value="catering">Catering</option>
+        <option value="customer support">Customer Support</option>
+        <option value="jobs">Jobs</option>
+      </select>
+      <br> <br>
+
+      <label for="thoughts">Comment:</label>
+      <textarea name="thoughts" id="thoughts" rows="5" cols="100">Enter here...</textarea>
+      <br> <br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    </section>
+
+  </section>
+</div>
+
+    <footer>
+
+      <p>Location: 123 Fruit Way Lexington, KY 40508</p>
+      <img src="images/logowhite.png" alt="Fruit Market Logo - Red">
+      <a href="contact.html">Contact</a>
+
+    </footer>
+
+  </body>
+</html>
