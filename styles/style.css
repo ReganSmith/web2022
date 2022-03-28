@@ -132,6 +132,13 @@ header a {
   padding: 0 0 1rem 2rem;
 }
 
+#cateringForm {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-auto-rows: minmax(auto, auto);
+  padding: 0 0 1rem 2rem;
+}
+
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

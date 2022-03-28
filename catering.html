@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Fruit Market - About</title>
+  </head>
+
+
+  <body>
+    <header>
+
+        <a href="index.html">
+          <img src="images/logored.png" alt="Fruit Market Logo - Red">
+        </a>
+
+      <h1>Fruit Market</h1>
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="catering.html">Catering</a>
+      <a href="contact.html">Contact</a>
+
+    </header>
+
+
+<div class="wrapper">
+
+  <section id="features">
+
+    <br>
+    <h1>Featured Catering Options:</h1>
+
+    <section id="featuresImgTxt">
+
+      <img srcset="images/fruitbasket.png 100w, images/fruitbasket.png 200w"
+        sizes="(max-width: 60px) 50px, 100px"
+        src="images/fruitbasket.png"
+        alt="Fruit Basket Image">
+      <img srcset="images/sandwichtray.png 100w, images/sandwichtray.png 200w"
+        sizes="(max-width: 60px) 50px, 100px"
+        src="images/sandwichtray.png"
+        alt="Sandwich Tray Image">
+      <img srcset="images/cheeseboard.png 100w, images/cheeseboard.png 200w"
+        sizes="(max-width: 60px) 50px, 100px"
+        src="images/cheeseboard.png"
+        alt="Cheese Board Image">
+      <img srcset="images/fruitplatter.png 100w, images/fruitplatter.png 200w"
+        sizes="(max-width: 60px) 50px, 100px"
+        src="images/fruitplatter.png"
+        alt="Fruit Platter Image">
+      <img srcset="images/cookietray.png 100w, images/cookietray.png 200w"
+        sizes="(max-width: 60px) 50px, 100px"
+        src="images/cookietray.png"
+        alt="Cookie Tray Image">
+
+      <h2>Fruit Baskets</h2>
+      <h2>Sandwich Trays</h2>
+      <h2>Cheese Boards</h2>
+      <h2>Fruit Platters</h2>
+      <h2>Cookie Trays</h2>
+
+    </section>
+
+  </section>
+
+  <section id="cateringForm">
+
+    <h1>Submit Online Catering Order</h1>
+
+  <form action="scripts/action.php" method="post" class="basic-form">
+
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" required>
+    <br> <br>
+
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email" required>
+    <br> <br>
+
+    <label for="phone">Phone Number: </label>
+    <input type="text" name="phone" id="phone" required>
+    <br> <br>
+
+    <label for="cateringOption">Catering Option: </label>
+    <select id="cateringOption" name="cateringOption">
+      <option value="">--Please choose an option--</option>
+      <option value="fruitbasket">Fruit Basket</option>
+      <option value="sandwichtray">Sandwich Trays</option>
+      <option value="cheeseboard">Cheese Boards</option>
+      <option value="fruitplatter">Fruit Platter</option>
+      <option value="cookietray">Cookie Tray</option>
+    </select>
+    <br> <br>
+
+    <label for="numPeople">Number of People: </label>
+    <input type="text" name="numPeople" id="numPeople" required>
+    <br> <br>
+
+    <label for="pickup">Pickup Date and Time: </label>
+    <input type="text" name="pickup" id="pickup" required>
+    <br> <br>
+
+    <label for="paymentType">Payment Type: </label>
+    <select id="paymentType" name="paymentType">
+      <option value="">--Please choose an option--</option>
+      <option value="creditcard">Credit Card via online form</option>
+      <option value="instore">In-Store</option>
+    </select>
+    <br> <br>
+
+    <label for="thoughts">Comment:</label> <br>
+    <textarea name="thoughts" id="thoughts" rows="5" cols="50">Enter here...</textarea>
+    <br> <br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  </section>
+
+
+</div>
+
+    <footer>
+
+      <p>Location: 123 Fruit Way Lexington, KY 40508</p>
+      <img src="images/logowhite.png" alt="Fruit Market Logo - Red">
+      <a href="contact.html">Contact</a>
+
+    </footer>
+
+  </body>
+</html>
