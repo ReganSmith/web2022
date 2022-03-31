@@ -136,7 +136,19 @@ header a {
   display: grid;
   grid-template-columns: repeat(1, 2fr);
   grid-auto-rows: minmax(auto, auto);
-  padding: 0 0 1rem 2rem;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+#cateringBottom {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+#cateringBottom img {
+  padding-top: 75px;
+  padding-left: 75px;
+  width: 150%;
 }
 
 footer {
